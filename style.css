@@ -169,3 +169,18 @@ border-top:1px solid #222;
 nav{padding:15px 20px;}
 .section{padding:50px 20px;}
 }
+
+.project::after{
+content:"LIVE";
+float:right;
+background:#22c55e;
+color:#000;
+font-size:10px;
+padding:3px 8px;
+border-radius:10px;
+font-weight:bold;
+}
+
+.project:hover::after{
+background:#00ff88;
+}
